@@ -85,7 +85,7 @@ def main():
         FOLLOW_SETTING_2 = setting_2
 
         # 検索キーワードの最大取得数
-        SEARCH_MAX_COUNT = 1
+        SEARCH_MAX_COUNT = FOLLOW_NUM
 
         #APIインスタンスを作成
         auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
@@ -167,7 +167,7 @@ def NotMutualFollow(id, username):
         # お互いフォローしていない場合
         if friendship[1].followed_by == False and friendship[1].following  == False :
             #フォローする
-            #api.create_friendship(id)
+            api.create_friendship(id)
 
             # csvにフォローしたユーザの情報を書き込む
             csvWriter.writerow([username,str(id)]) #[スクリーンネーム, ID]
