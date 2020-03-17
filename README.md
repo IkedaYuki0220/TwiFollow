@@ -10,7 +10,8 @@ TwitterAPIを利用して、好きなハッシュタグやキーワードを元�
 
 キーワード「cooking」を指定した場合
 
-<img src="https://user-images.githubusercontent.com/62292461/76877033-24dcad00-68b6-11ea-8a04-cc056f9dc62a.jpg" width="200">
+<img src="https://user-images.githubusercontent.com/62292461/76877033-24dcad00-68b6-11ea-8a04-cc056f9dc62a.jpg" width="250">
+TwitterのDMに通知が届く。
 
 # Features
  
