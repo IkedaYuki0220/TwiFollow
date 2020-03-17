@@ -1,12 +1,29 @@
-# Name（リポジトリ/プロジェクト/OSSなどの名前）
+# TwiFollow（IkedaYuki0220/TwiFollow.git）
  
-分かりやすくてカッコイイ名前をつける（今回は"hoge"という名前をつける）
+TwitterAPIを利用して、好きなハッシュタグやキーワードを元に
  
-"hoge"が何かを簡潔に紹介する
+ユーザを自動でフォローするツール。
  
 # DEMO
  
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
+ツールの流れ
+
+> ```flow
+st=>start: Start :>http://www.google.com[blank]
+op1=>operation: twitterのDMに実行開始を通知
+io=>inputoutput: 設定ファイル読み込み
+app_ini.csv
+follow_ini.csv
+op1=>operation: 
+sub1=>subroutine: My Subroutine
+cond=>condition: Yes 
+or No?
+e=>end
+
+st(right)->op1(right)->io(right)->sub1(right)->cond
+cond(yes)->e
+cond(no)->op1
+> ```
  
 # Features
  
