@@ -15,7 +15,9 @@ TwitterAPIを利用して、好きなハッシュタグやキーワードを元�
  
 # ファイルの説明
 * follow.py
-　　　実行ファイル
+```bash
+python demo.py
+```
    
 * app_ini.csv
 　　　
