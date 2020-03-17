@@ -4,61 +4,26 @@ TwitterAPIを利用して、好きなハッシュタグやキーワードを元�
  
 ユーザを自動でフォローするツール。
  
-# DEMO
+# デモ
  
-ツール実行例
-
 キーワード「cooking」を指定した場合
+そのキーワードを最近呟いたユーザを自動でフォローします。
 
 <img src="https://user-images.githubusercontent.com/62292461/76877033-24dcad00-68b6-11ea-8a04-cc056f9dc62a.jpg" width="250">
-TwitterのDMに通知が届く。
 
-# Features
+フォローが完了するとTwitterのDMに通知が届きます。
  
-"hoge"のセールスポイントや差別化などを説明する
- 
-# Requirement
- 
-"hoge"を動かすのに必要なライブラリなどを列挙する
- 
-* huga 3.5.2
-* hogehuga 1.0.2
- 
-# Installation
- 
-Requirementで列挙したライブラリなどのインストール方法を説明する
- 
-```bash
-pip install huga_package
-```
- 
-# Usage
- 
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
- 
-```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
-```
+# ファイルの説明
+* follow.py
+　　　実行ファイル
+   
+* app_ini.csv
+　　　twitterAPIキーの設定ファイル
+   
+* follow_ini.csv
+　　　フォロー条件の設定ファイル
  
 # Note
  
 注意点などがあれば書く
  
-# Author
- 
-作成情報を列挙する
- 
-* 作成者
-* 所属
-* E-mail
- 
-# License
-ライセンスを明示する
- 
-"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
- 
-社内向けなら社外秘であることを明示してる
- 
-"hoge" is Confidential.
