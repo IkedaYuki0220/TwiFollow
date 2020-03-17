@@ -1,44 +1,30 @@
-# TwiFollow�iIkedaYuki0220/TwiFollow.git�j
+# TwiFollow（IkedaYuki0220/TwiFollow.git）
  
-TwitterAPI�𗘗p���āA�D���ȃn�b�V���^�O��L�[���[�h������
+TwitterAPIを利用して、好きなハッシュタグやキーワードを元に
  
-���[�U�������Ńt�H���[����c�[���B
+ユーザを自動でフォローするツール。
  
 # DEMO
  
-�c�[���̗���
+ツールの流れ
 
-> ```flow
-st=>start: Start :>http://www.google.com[blank]
-op1=>operation: twitter��DM�Ɏ��s�J�n��ʒm
-io=>inputoutput: �ݒ�t�@�C���ǂݍ���
-app_ini.csv
-follow_ini.csv
-op1=>operation: 
-sub1=>subroutine: My Subroutine
-cond=>condition: Yes 
-or No?
-e=>end
+![29887](https://user-images.githubusercontent.com/62292461/76877033-24dcad00-68b6-11ea-8a04-cc056f9dc62a.jpg)
 
-st(right)->op1(right)->io(right)->sub1(right)->cond
-cond(yes)->e
-cond(no)->op1
-> ```
  
 # Features
  
-"hoge"�̃Z�[���X�|�C���g�⍷�ʉ��Ȃǂ��������
+"hoge"のセールスポイントや差別化などを説明する
  
 # Requirement
  
-"hoge"�𓮂����̂ɕK�v�ȃ��C�u�����Ȃǂ�񋓂���
+"hoge"を動かすのに必要なライブラリなどを列挙する
  
 * huga 3.5.2
 * hogehuga 1.0.2
  
 # Installation
  
-Requirement�ŗ񋓂������C�u�����Ȃǂ̃C���X�g�[�����@���������
+Requirementで列挙したライブラリなどのインストール方法を説明する
  
 ```bash
 pip install huga_package
@@ -46,7 +32,7 @@ pip install huga_package
  
 # Usage
  
-DEMO�̎��s���@�ȂǁA"hoge"�̊�{�I�Ȏg�������������
+DEMOの実行方法など、"hoge"の基本的な使い方を説明する
  
 ```bash
 git clone https://github.com/hoge/~
@@ -56,21 +42,21 @@ python demo.py
  
 # Note
  
-���ӓ_�Ȃǂ�����Ώ���
+注意点などがあれば書く
  
 # Author
  
-�쐬����񋓂���
+作成情報を列挙する
  
-* �쐬��
-* ����
+* 作成者
+* 所属
 * E-mail
  
 # License
-���C�Z���X�𖾎�����
+ライセンスを明示する
  
 "hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
  
-�Г������Ȃ�ЊO��ł��邱�Ƃ𖾎����Ă�
+社内向けなら社外秘であることを明示してる
  
 "hoge" is Confidential.
