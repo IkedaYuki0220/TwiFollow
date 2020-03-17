@@ -7,6 +7,7 @@ TwitterAPIを利用して、好きなハッシュタグやキーワードを元�
 # デモ
  
 キーワード「cooking」を指定した場合
+
 そのキーワードを最近呟いたユーザを自動でフォローします。
 
 <img src="https://user-images.githubusercontent.com/62292461/76877033-24dcad00-68b6-11ea-8a04-cc056f9dc62a.jpg" width="250">
