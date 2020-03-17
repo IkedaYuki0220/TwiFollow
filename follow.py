@@ -26,15 +26,19 @@ def main():
     # 環境パスを取得
     base = os.path.dirname(os.path.abspath(__file__))
 
-    # 環境パス + ファイル名
+    # API設定ファイル
     app_ini = os.path.normpath(os.path.join(base, 'app_ini.csv'))
+
+	# ツール条件設定ファイル
     follow_ini = os.path.normpath(os.path.join(base, 'follow_ini.csv'))
+
+	# ユーザ情報書き込み用ファイル
     follow_history = os.path.normpath(os.path.join(base, 'follow_history.csv'))
 
     # app_ini.csvからAPIキーを取得
     with open(app_ini, "r") as f:
         reader = csv.DictReader(f)
-        reader_list = [row for row in reader] #{ 式 for 変数 in オブジェクト　｝
+        reader_list = [row for row in reader] #{ 式 for 変数 in オブジェクト｝
         api_key = reader_list[0]['API_key']
         api_secret_key = reader_list[0]['API_secret_key']
         access_token = reader_list[0]['Access_token']
