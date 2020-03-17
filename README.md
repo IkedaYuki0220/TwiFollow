@@ -6,11 +6,12 @@ TwitterAPIを利用して、好きなハッシュタグやキーワードを元�
  
 # DEMO
  
-ツールの流れ
+ツール実行例
 
-![29887](https://user-images.githubusercontent.com/62292461/76877033-24dcad00-68b6-11ea-8a04-cc056f9dc62a.jpg)
+キーワード「cooking」を指定した場合
 
- 
+<img src="https://user-images.githubusercontent.com/62292461/76877033-24dcad00-68b6-11ea-8a04-cc056f9dc62a.jpg" width="200">
+
 # Features
  
 "hoge"のセールスポイントや差別化などを説明する
