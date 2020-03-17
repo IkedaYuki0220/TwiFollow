@@ -25,7 +25,12 @@ TwitterAPIを利用して、好きなハッシュタグやキーワードを元�
 ```bash
 twitterAPIキーの設定ファイル
 ```
-   
+
+* follow_history.csv
+```bash
+過去にフォローしたユーザを記録するファイル
+```
+
 * follow_ini.csv
 ```bash
 フォロー条件の設定ファイル
@@ -45,6 +50,5 @@ setting_1
 setting_2
 　　 TRUE  ⇒ 相互にフォローしていないユーザのみフォローする
      FALSE ⇒ 相手が自分に片思いでもフォローする
-
 ```
  
