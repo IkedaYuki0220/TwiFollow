@@ -29,10 +29,10 @@ def main():
     # API設定ファイル
     app_ini = os.path.normpath(os.path.join(base, 'app_ini.csv'))
 
-	# ツール条件設定ファイル
+    # ツール条件設定ファイル
     follow_ini = os.path.normpath(os.path.join(base, 'follow_ini.csv'))
 
-	# ユーザ情報書き込み用ファイル
+    # ユーザ情報書き込み用ファイル
     follow_history = os.path.normpath(os.path.join(base, 'follow_history.csv'))
 
     # app_ini.csvからAPIキーを取得
