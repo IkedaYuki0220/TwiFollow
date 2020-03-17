@@ -18,7 +18,8 @@ TwitterAPIを利用して、好きなハッシュタグやキーワードを元�
 　　　実行ファイル
    
 * app_ini.csv
-　　　twitterAPIキーの設定ファイル
+　　　
+   twitterAPIキーの設定ファイル
    
 * follow_ini.csv
 　　　フォロー条件の設定ファイル
